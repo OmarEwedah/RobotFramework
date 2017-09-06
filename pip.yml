@@ -1,0 +1,7 @@
+---
+- name: Create Docker Container
+  hosts: 84.39.39.127
+  remote_user: ansible
+  become: true
+  roles:
+      - pip
